@@ -1,0 +1,583 @@
+# ==========================================================
+# DevOps / SRE + Fedora/RHEL + C++ Learning Dashboard Resources
+# ==========================================================
+
+youtube_channels:
+  - name: "Red Hat"
+    url: "https://www.youtube.com/@RedHat"
+  - name: "LearnLinuxTV"
+    url: "https://www.youtube.com/@LearnLinuxTV"
+  - name: "NetworkChuck"
+    url: "https://www.youtube.com/@NetworkChuck"
+  - name: "freeCodeCamp.org"
+    url: "https://www.youtube.com/@freecodecamp"
+  - name: "Linode"
+    url: "https://www.youtube.com/@Linode"
+  - name: "TechWorld with Nana"
+    url: "https://www.youtube.com/@TechWorldwithNana"
+  - name: "The Linux Experiment"
+    url: "https://www.youtube.com/@TheLinuxExperiment"
+  - name: "DistroTube"
+    url: "https://www.youtube.com/@DistroTube"
+  - name: "ProgrammingKnowledge"
+    url: "https://www.youtube.com/@ProgrammingKnowledge"
+  - name: "Traversy Media"
+    url: "https://www.youtube.com/@TraversyMedia"
+  - name: "Linux Foundation"
+    url: "https://www.youtube.com/@linuxfoundation"
+  - name: "TutorialLinux"
+    url: "https://www.youtube.com/@TutorialLinux"
+  - name: "Jeremy's IT Lab"
+    url: "https://www.youtube.com/@JeremysITLab"
+  - name: "PowerCert Animated Videos"
+    url: "https://www.youtube.com/@PowerCertAnimatedVideos"
+  - name: "Hussein Nasser"
+    url: "https://www.youtube.com/@hnasr"
+  - name: "Hak5"
+    url: "https://www.youtube.com/@hak5"
+  - name: "David Bombal"
+    url: "https://www.youtube.com/@davidbombal"
+  - name: "LinuxHelp"
+    url: "https://www.youtube.com/@LinuxHelp"
+  - name: "That DevOps Guy (Marcel Dempers)"
+    url: "https://www.youtube.com/@MarcelDempers"
+  - name: "KubeSimplify"
+    url: "https://www.youtube.com/@KubeSimplify"
+  - name: "DevOps Toolkit (Viktor Farcic)"
+    url: "https://www.youtube.com/@DevOpsToolkit"
+  - name: "Grafana"
+    url: "https://www.youtube.com/@Grafana"
+  - name: "Google Cloud Tech"
+    url: "https://www.youtube.com/@googlecloudtech"
+  - name: "AWS Events"
+    url: "https://www.youtube.com/@AWSEventsChannel"
+  - name: "Microsoft Azure"
+    url: "https://www.youtube.com/@MicrosoftAzure"
+  - name: "CppCon"
+    url: "https://www.youtube.com/@CppCon"
+  - name: "The Cherno"
+    url: "https://www.youtube.com/@TheCherno"
+  - name: "Jason Turner (C++ Weekly)"
+    url: "https://www.youtube.com/@cppweekly"
+  - name: "Bo Qian"
+    url: "https://www.youtube.com/@BoQianTheProgrammer"
+  - name: "Programming with Mosh"
+    url: "https://www.youtube.com/@programmingwithmosh"
+  - name: "Neso Academy"
+    url: "https://www.youtube.com/@nesoacademy"
+  - name: "mycodeschool"
+    url: "https://www.youtube.com/@mycodeschool"
+
+# ==========================================================
+# Dashboard resources list (cards)
+# ==========================================================
+resources:
+
+  # -----------------------------
+  # Fedora/RHEL Complete Reference Index (YouTube)
+  # -----------------------------
+  - title: "Fedora 7 & Red Hat Linux Complete Reference — Index Hub"
+    description: "Master hub for Fedora/RHEL troubleshooting + Linux administration topics."
+    url: "https://www.youtube.com/results?search_query=fedora+7+red+hat+linux+complete+reference"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Fedora", "RHEL", "BookIndex", "Linux"]
+
+  - title: "Linux Boot Process (GRUB + systemd)"
+    description: "Boot troubleshooting, GRUB, init/systemd overview."
+    url: "https://www.youtube.com/results?search_query=linux+boot+process+grub+systemd"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Boot", "GRUB", "systemd", "Troubleshooting"]
+
+  - title: "Disk Partitioning + LVM"
+    description: "MBR/GPT partitioning + LVM PV/VG/LV."
+    url: "https://www.youtube.com/results?search_query=linux+partitioning+lvm+tutorial"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Storage", "Partitioning", "LVM", "LinuxAdmin"]
+
+  - title: "Linux Users/Groups/Permissions"
+    description: "useradd/usermod, sudo, chmod/chown, /etc/passwd + shadow."
+    url: "https://www.youtube.com/results?search_query=linux+users+groups+permissions+sudo+tutorial"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Users", "Permissions", "sudo", "Security"]
+
+  - title: "SSH Troubleshooting + Hardening"
+    description: "SSH keys, ssh-agent, permissions, sshd_config hardening."
+    url: "https://www.youtube.com/results?search_query=ssh+hardening+troubleshooting+linux"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["SSH", "Security", "SRE", "Troubleshooting"]
+
+  - title: "DNS Troubleshooting (dig/nslookup)"
+    description: "Resolve DNS failures in production using dig/nslookup."
+    url: "https://www.youtube.com/results?search_query=dns+troubleshooting+dig+nslookup+linux"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["DNS", "Networking", "SRE", "Troubleshooting"]
+
+  - title: "Firewall Troubleshooting (iptables/firewalld)"
+    description: "Common Linux connectivity issues due to firewall."
+    url: "https://www.youtube.com/results?search_query=iptables+firewalld+troubleshooting"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Firewall", "iptables", "firewalld", "Networking"]
+
+  - title: "SELinux Explained + Troubleshooting"
+    description: "audit2allow, semanage, contexts, fixing denied errors."
+    url: "https://www.youtube.com/results?search_query=selinux+audit2allow+semanage+troubleshooting"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["SELinux", "Security", "RedHat", "Troubleshooting"]
+
+  - title: "Linux Performance Troubleshooting (top/vmstat/iostat)"
+    description: "How SREs debug CPU/memory/disk bottlenecks."
+    url: "https://www.youtube.com/results?search_query=linux+performance+troubleshooting+top+vmstat+iostat"
+    type: "youtube"
+    category: "Fedora/RHEL Complete Reference"
+    tags: ["Performance", "Linux", "SRE", "Troubleshooting"]
+
+  # -----------------------------
+  # DevOps Core
+  # -----------------------------
+  - title: "Docker Full Course"
+    description: "Docker fundamentals + production usage."
+    url: "https://www.youtube.com/results?search_query=docker+full+course"
+    type: "youtube"
+    category: "Docker"
+    tags: ["Docker", "Containers", "Learning"]
+
+  - title: "Kubernetes Full Course"
+    description: "Kubernetes fundamentals, cluster components, deployments."
+    url: "https://www.youtube.com/results?search_query=kubernetes+full+course"
+    type: "youtube"
+    category: "Kubernetes"
+    tags: ["Kubernetes", "K8s", "Learning"]
+
+  - title: "Kubernetes Troubleshooting (CrashLoopBackOff / OOMKilled / DNS)"
+    description: "Most common production K8s failure cases."
+    url: "https://www.youtube.com/results?search_query=kubernetes+troubleshooting+crashloopbackoff+oomkilled+dns"
+    type: "youtube"
+    category: "Kubernetes"
+    tags: ["K8s", "Troubleshooting", "SRE"]
+
+  - title: "Terraform for DevOps (Projects)"
+    description: "Infrastructure as Code real projects."
+    url: "https://www.youtube.com/results?search_query=terraform+projects+devops"
+    type: "youtube"
+    category: "IaC"
+    tags: ["Terraform", "IaC", "Projects"]
+
+  - title: "GitHub Actions CI/CD"
+    description: "Modern CI/CD pipelines using GitHub Actions."
+    url: "https://www.youtube.com/results?search_query=github+actions+ci+cd+tutorial"
+    type: "youtube"
+    category: "CI/CD"
+    tags: ["CI/CD", "GitHubActions", "DevOps"]
+
+  # ==========================================================
+  # C++ Learning Dashboard - Channels
+  # ==========================================================
+  - title: "The Cherno (C++ Masterclass style)"
+    description: "Best for C++ fundamentals + real-world game-engine mindset."
+    url: "https://www.youtube.com/@TheCherno"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "Channel", "Top"]
+
+  - title: "CppCon (Official Conference Talks)"
+    description: "Advanced C++ talks by the best C++ engineers in world."
+    url: "https://www.youtube.com/@CppCon"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "Advanced", "Conference", "Top"]
+
+  - title: "Jason Turner (C++ Weekly)"
+    description: "Modern C++ best practices weekly."
+    url: "https://www.youtube.com/@cppweekly"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "ModernCpp", "Top"]
+
+  - title: "Bo Qian"
+    description: "STL containers, algorithms and C++ deep topics."
+    url: "https://www.youtube.com/@BoQianTheProgrammer"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "STL", "Top"]
+
+  - title: "Programming with Mosh"
+    description: "Beginner friendly structured learning."
+    url: "https://www.youtube.com/@programmingwithmosh"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "Beginner", "Top"]
+
+  - title: "Neso Academy (C/C++ + CS Topics)"
+    description: "Exam style CS + C/C++ fundamentals."
+    url: "https://www.youtube.com/@nesoacademy"
+    type: "youtube"
+    category: "C++ YouTube Channels"
+    tags: ["C++", "CS", "Top"]
+
+  # ==========================================================
+  # C++ TAB 2 - Blogs/Docs
+  # ==========================================================
+  - title: "cppreference.com"
+    description: "C++ language + STL reference."
+    url: "https://en.cppreference.com/w/"
+    type: "docs"
+    category: "C++ Blogs & Docs"
+    tags: ["C++", "Reference", "STL"]
+
+  - title: "LearnCpp.com"
+    description: "Best structured learning website."
+    url: "https://www.learncpp.com/"
+    type: "docs"
+    category: "C++ Blogs & Docs"
+    tags: ["C++", "Learning", "Beginner"]
+
+  - title: "C++ Core Guidelines"
+    description: "Modern best practices from Bjarne/Herb."
+    url: "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    type: "docs"
+    category: "C++ Blogs & Docs"
+    tags: ["C++", "Guidelines", "BestPractices"]
+
+  # ==========================================================
+  # C++ TAB 3 - Projects
+  # ==========================================================
+  - title: "Project: Matrix Library"
+    description: "Implement matrix, operators, rule-of-5, templates."
+    url: "https://github.com/search?q=c%2B%2B+matrix+library&type=repositories"
+    type: "github"
+    category: "C++ Projects & Practice"
+    tags: ["C++", "Project", "Matrix"]
+
+  - title: "Project: HTTP Server in C++"
+    description: "Learn networking by building server using sockets."
+    url: "https://www.youtube.com/results?search_query=c%2B%2B+http+server+socket+programming"
+    type: "youtube"
+    category: "C++ Projects & Practice"
+    tags: ["C++", "Networking", "Project"]
+
+  - title: "Project: OS Dev Wiki"
+    description: "Best site for OS development fundamentals."
+    url: "https://wiki.osdev.org/Main_Page"
+    type: "docs"
+    category: "C++ Projects & Practice"
+    tags: ["OS", "Kernel", "Project"]
+  # ==========================================================
+  # SRE (Docs/Blogs)
+  # ==========================================================
+  - title: "Google SRE Book (Free)"
+    description: "SRE foundation: SLIs, SLOs, error budgets, incident response."
+    url: "https://sre.google/sre-book/table-of-contents/"
+    type: "ebook"
+    category: "SRE"
+    tags: ["SRE", "SLI", "SLO", "ErrorBudget", "Incident"]
+
+  - title: "Google SRE Workbook (Free)"
+    description: "Hands-on SRE practices: monitoring, alerting, automation."
+    url: "https://sre.google/workbook/table-of-contents/"
+    type: "ebook"
+    category: "SRE"
+    tags: ["SRE", "Monitoring", "Runbooks", "Practical"]
+
+  - title: "PagerDuty Incident Response Guide"
+    description: "Best incident response process reference."
+    url: "https://response.pagerduty.com/"
+    type: "docs"
+    category: "SRE"
+    tags: ["Incident", "OnCall", "Runbooks", "SRE"]
+
+  - title: "The Site Reliability Workbook Notes (TL;DR)"
+    description: "Fast learning notes for SRE practices."
+    url: "https://www.youtube.com/results?search_query=site+reliability+engineering+workbook+summary"
+    type: "youtube"
+    category: "SRE"
+    tags: ["SRE", "Learning", "Quick"]
+
+  - title: "Brendan Gregg - USE Method"
+    description: "Best method for debugging CPU, memory, disk, network bottlenecks."
+    url: "https://www.brendangregg.com/usemethod.html"
+    type: "blog"
+    category: "SRE"
+    tags: ["SRE", "Performance", "Troubleshooting", "USE"]
+
+  - title: "Brendan Gregg - Linux Performance"
+    description: "Linux performance debugging guide used by real production engineers."
+    url: "https://www.brendangregg.com/linuxperf.html"
+    type: "blog"
+    category: "SRE"
+    tags: ["Linux", "Performance", "SRE", "Troubleshooting"]
+
+  - title: "OpenTelemetry Docs"
+    description: "Modern standard for traces, metrics, logs."
+    url: "https://opentelemetry.io/docs/"
+    type: "docs"
+    category: "SRE"
+    tags: ["Observability", "OpenTelemetry", "Tracing", "Metrics"]
+
+  - title: "Grafana Observability Blog"
+    description: "Production-grade observability patterns and real examples."
+    url: "https://grafana.com/blog/"
+    type: "blog"
+    category: "SRE"
+    tags: ["Grafana", "Monitoring", "Tracing", "Logs"]
+
+  # ==========================================================
+  # SRE (Projects/Practice)
+  # ==========================================================
+  - title: "OpenTelemetry Demo (Microservices + tracing)"
+    description: "Best hands-on project to learn distributed tracing end-to-end."
+    url: "https://github.com/open-telemetry/opentelemetry-demo"
+    type: "github"
+    category: "SRE"
+    tags: ["OpenTelemetry", "Tracing", "Microservices", "Project"]
+
+  - title: "Awesome SRE"
+    description: "Huge list of SRE resources and tooling."
+    url: "https://github.com/dastergon/awesome-sre"
+    type: "github"
+    category: "SRE"
+    tags: ["SRE", "Tools", "Research"]
+
+  - title: "Kubernetes Failure Stories + Production incidents"
+    description: "Learn real failure scenarios and recovery patterns."
+    url: "https://www.youtube.com/results?search_query=kubernetes+production+incidents+postmortem"
+    type: "youtube"
+    category: "SRE"
+    tags: ["K8s", "Postmortem", "Incidents"]
+
+  # ==========================================================
+  # DevOps (Docs/Blogs)
+  # ==========================================================
+  - title: "Docker Docs"
+    description: "Official docker docs: best practices + security."
+    url: "https://docs.docker.com/"
+    type: "docs"
+    category: "DevOps"
+    tags: ["Docker", "Containers", "Official"]
+
+  - title: "Kubernetes Docs"
+    description: "Official Kubernetes reference."
+    url: "https://kubernetes.io/docs/home/"
+    type: "docs"
+    category: "DevOps"
+    tags: ["Kubernetes", "K8s", "Official"]
+
+  - title: "ArgoCD Docs (GitOps)"
+    description: "Industry standard GitOps controller."
+    url: "https://argo-cd.readthedocs.io/en/stable/"
+    type: "docs"
+    category: "DevOps"
+    tags: ["ArgoCD", "GitOps", "Kubernetes"]
+
+  - title: "Terraform Docs"
+    description: "Best Infrastructure as Code docs."
+    url: "https://developer.hashicorp.com/terraform/docs"
+    type: "docs"
+    category: "DevOps"
+    tags: ["Terraform", "IaC", "Cloud"]
+
+  - title: "CNCF Landscape"
+    description: "Explore cloud-native tools (what is trending in DevOps)."
+    url: "https://landscape.cncf.io/"
+    type: "docs"
+    category: "DevOps"
+    tags: ["CNCF", "CloudNative", "Tools", "Trending"]
+
+  - title: "Netflix Tech Blog"
+    description: "High engineering quality blogs on distributed systems."
+    url: "https://netflixtechblog.com/"
+    type: "blog"
+    category: "DevOps"
+    tags: ["DistributedSystems", "Architecture", "Engineering"]
+
+  - title: "AWS Architecture Blog"
+    description: "Enterprise patterns and best practices for cloud systems."
+    url: "https://aws.amazon.com/blogs/architecture/"
+    type: "blog"
+    category: "DevOps"
+    tags: ["AWS", "Cloud", "Architecture"]
+
+  # ==========================================================
+  # DevOps (Projects/Practice)
+  # ==========================================================
+  - title: "Kubernetes The Hard Way"
+    description: "Best deep K8s learning project."
+    url: "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+    type: "github"
+    category: "DevOps"
+    tags: ["Kubernetes", "Advanced", "Project"]
+
+  - title: "Awesome Kubernetes"
+    description: "Best curated list of Kubernetes tools."
+    url: "https://github.com/ramitsurana/awesome-kubernetes"
+    type: "github"
+    category: "DevOps"
+    tags: ["K8s", "Tools", "Projects"]
+
+  - title: "GitHub Actions Starter Workflows"
+    description: "Practical CI workflows templates."
+    url: "https://github.com/actions/starter-workflows"
+    type: "github"
+    category: "DevOps"
+    tags: ["CI/CD", "GitHubActions", "Practice"]
+
+  - title: "DevOps Projects (Trending 2026)"
+    description: "Find latest DevOps projects on YouTube."
+    url: "https://www.youtube.com/results?search_query=devops+projects+2026"
+    type: "youtube"
+    category: "DevOps"
+    tags: ["DevOps", "Projects", "Trending"]
+
+  # ==========================================================
+  # Linux (Docs/Blogs)
+  # ==========================================================
+  - title: "Linux Kernel Docs"
+    description: "Official kernel documentation and internals."
+    url: "https://docs.kernel.org/"
+    type: "docs"
+    category: "Linux"
+    tags: ["Linux", "Kernel", "Docs"]
+
+  - title: "Red Hat Sysadmin Blog"
+    description: "Practical RHEL sysadmin + troubleshooting topics."
+    url: "https://www.redhat.com/sysadmin/"
+    type: "blog"
+    category: "Linux"
+    tags: ["RHEL", "Troubleshooting", "Sysadmin"]
+
+  - title: "Arch Wiki (Linux Best Wiki)"
+    description: "Even for Fedora/RHEL engineers, Arch Wiki is best for knowledge."
+    url: "https://wiki.archlinux.org/"
+    type: "docs"
+    category: "Linux"
+    tags: ["Linux", "Reference", "Troubleshooting"]
+
+  # ==========================================================
+  # Linux (Projects/Practice)
+  # ==========================================================
+  - title: "Linux From Scratch"
+    description: "Build Linux manually to master system internals."
+    url: "https://www.linuxfromscratch.org/"
+    type: "docs"
+    category: "Linux"
+    tags: ["Linux", "Internals", "Project", "Advanced"]
+
+  - title: "Bash Scripting Practice Repos"
+    description: "Search bash scripting practice projects."
+    url: "https://github.com/search?q=bash+scripting+projects&type=repositories"
+    type: "github"
+    category: "Linux"
+    tags: ["Linux", "Bash", "Scripts", "Project"]
+
+  # ==========================================================
+  # C++ (Docs/Blogs)
+  # ==========================================================
+  - title: "cppreference"
+    description: "Most trusted C++ STL/language reference."
+    url: "https://en.cppreference.com/w/"
+    type: "docs"
+    category: "C++"
+    tags: ["C++", "STL", "Reference"]
+
+  - title: "LearnCpp"
+    description: "Best structured tutorial from basics to advanced."
+    url: "https://www.learncpp.com/"
+    type: "docs"
+    category: "C++"
+    tags: ["C++", "Beginner", "Learning"]
+
+  - title: "C++ Core Guidelines"
+    description: "Best practices for writing safe modern C++."
+    url: "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    type: "docs"
+    category: "C++"
+    tags: ["C++", "Guidelines", "BestPractices"]
+
+  # ==========================================================
+  # C++ (Projects/Practice)
+  # ==========================================================
+  - title: "OSDev Wiki"
+    description: "Best OS development wiki for kernel learning."
+    url: "https://wiki.osdev.org/Main_Page"
+    type: "docs"
+    category: "C++"
+    tags: ["OS", "Kernel", "C++", "Project"]
+
+  - title: "HTTP Server in C++"
+    description: "Socket programming and HTTP server build."
+    url: "https://www.youtube.com/results?search_query=c%2B%2B+http+server+project+sockets"
+    type: "youtube"
+    category: "C++"
+    tags: ["C++", "Networking", "HTTP", "Project"]
+
+  - title: "C++ Projects Collection"
+    description: "Search trending C++ project repos."
+    url: "https://github.com/search?q=c%2B%2B+projects&type=repositories"
+    type: "github"
+    category: "C++"
+    tags: ["C++", "Projects", "Practice"]
+  # ==========================================================
+  # OSHO (YouTube / Blogs / Books - Legal Sources)
+  # ==========================================================
+  - title: "OSHO Official YouTube Channel"
+    description: "Official OSHO talks, meditations, and discourse clips."
+    url: "https://www.youtube.com/@osho"
+    type: "youtube"
+    category: "OSHO"
+    tags: ["OSHO", "Spirituality", "Meditation", "Official"]
+
+  - title: "OSHO English Discourses (YouTube Search)"
+    description: "Best OSHO discourses in English (search results)."
+    url: "https://www.youtube.com/results?search_query=osho+full+discourse+english"
+    type: "youtube"
+    category: "OSHO"
+    tags: ["OSHO", "Discourse", "English"]
+
+  - title: "OSHO Meditation Techniques (YouTube Search)"
+    description: "Dynamic Meditation, Kundalini Meditation, Nadabrahma, etc."
+    url: "https://www.youtube.com/results?search_query=osho+dynamic+meditation+kundalini+nadabrahma"
+    type: "youtube"
+    category: "OSHO"
+    tags: ["OSHO", "Meditation", "Practice"]
+
+  - title: "OSHO International (Official Website)"
+    description: "Official OSHO International portal."
+    url: "https://www.osho.com/"
+    type: "docs"
+    category: "OSHO"
+    tags: ["OSHO", "Official", "Website"]
+
+  - title: "OSHO Books (Official Store)"
+    description: "Buy official OSHO books and eBooks."
+    url: "https://www.osho.com/osho-books"
+    type: "docs"
+    category: "OSHO"
+    tags: ["OSHO", "Books", "Official"]
+
+  - title: "OSHO Online Library / Talks"
+    description: "Official OSHO online content library."
+    url: "https://oshosamyak.com/"
+    type: "docs"
+    category: "OSHO"
+    tags: ["OSHO", "Library", "Talks"]
+
+  - title: "OSHO Meditation (Official Page)"
+    description: "Meditation methods and guides from OSHO site."
+    url: "https://www.osho.com/meditation"
+    type: "docs"
+    category: "OSHO"
+    tags: ["OSHO", "Meditation", "Practice", "Official"]
+
+  - title: "OSHO Dynamic Meditation (Guide)"
+    description: "Step-by-step OSHO Dynamic Meditation instructions."
+    url: "https://www.osho.com/meditation/osho-active-meditations/osho-dynamic-meditation"
+    type: "docs"
+    category: "OSHO"
+    tags: ["OSHO", "DynamicMeditation", "Practice", "Official"]

@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  dashboard:
+    build: .
+    container_name: devops-dashboard
+    ports:
+      - "8501:8501"
+    restart: always
+
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: ngrok-tunnel
+    restart: always
+    environment:
+      - NGROK_AUTHTOKEN=34e7cdPgC0AUV0qR1VTtZWuKKDd_4ya1o713D1vXNEtVkV7BS
+    command: ["http", "dashboard:8501"]
+    ports:
+      - "4040:4040"

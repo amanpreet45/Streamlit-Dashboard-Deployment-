@@ -122,7 +122,9 @@ docker images
 
 8. Run Streamlit Dashboard in Docker
 Run container:
-docker run -p 8501:8501 devops-dashboard
+docker run -p 8501:8501 devops-dashboard or
+docker compose up -d --build
+
 
 Now open in browser:
  Local URL
